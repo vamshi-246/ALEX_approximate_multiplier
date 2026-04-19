@@ -55,7 +55,7 @@ module tb_approx_multiplier_8x8;
     reg [7:0]  dir_B [0:9];
     reg [15:0] dir_exact [0:9];
 
-    // Pipeline sequencing storage
+    // Pipeline sequencing storage 
     reg [7:0]  pipe_A [0:4];
     reg [7:0]  pipe_B [0:4];
 
